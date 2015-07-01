@@ -1,2 +1,2 @@
-# primary-web
+# Notes
 Repository of Mt Horeb Presbyterian Church
