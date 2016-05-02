@@ -1,4 +1,4 @@
-## Mt Horeb Presbyterian Church
+## Mt. Horeb Presbyterian Church
 
 Visit us at [mthoreblex.org](mthoreblex.org)
 
