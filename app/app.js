@@ -39,6 +39,12 @@ function config($stateProvider, $urlRouterProvider) {
             controllerAs: "vm",
             url: "/contact"
         })
+        .state("/christmas", {
+            templateUrl: "app-content/views/christmas_2016.view.html",
+            controller: "ChristmasController",
+            controllerAs: "vm",
+            url: "/christmas"
+        })
 }
 
 run.$inject = ["$rootScope", "$location", "$http"];

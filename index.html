@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-  <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
   <link rel="stylesheet" type="text/css" href="app-content/css/app.css">
 
   <link href='https://fonts.googleapis.com/css?family=Satisfy|Josefin+Sans:400,700,300,500,800' rel='stylesheet' type='text/css'>
@@ -25,9 +25,9 @@
     }
   </style>
 
-  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
-  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-resource.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-resource.min.js"></script>
 
   <script type="text/javascript" src="app-content/js/re-tree.js"></script>
   <script type="text/javascript" src="app-content/js/ng-device-detector.js"></script>
@@ -39,6 +39,8 @@
 <script type="text/javascript" src="app-content/js/home.controller.js"></script>
 <script type="text/javascript" src="app-content/js/about.controller.js"></script>
 <script type="text/javascript" src="app-content/js/contact.controller.js"></script>
+<script type="text/javascript" src="app-content/js/christmas.controller.js"></script>
+
 
 <div style="font-size: 36px;min-height: 100%;margin-bottom: -25px;position: relative;padding-top: 0.25em;" class="container">
   <nav class="navbar navbar-default">
@@ -56,6 +58,7 @@
           <li ng-class="{ 'active': activeTab === '/home' }"><a href="#/home">Home</a></li>
           <li ng-class="{ 'active': activeTab === '/about' || activeTab == '/rachel' }"><a href="#/about">About</a></li>
           <li ng-class="{ 'active': activeTab === '/contact' }"><a href="#/contact">Contact</a></li>
+          <li ng-class="{ 'active': activeTab === '/christmas' }"><a href="#/christmas">Christmas Services</a></li>
         </ul>
       </div>
     </div>
