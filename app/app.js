@@ -39,11 +39,11 @@ function config($stateProvider, $urlRouterProvider) {
             controllerAs: "vm",
             url: "/contact"
         })
-        .state("/christmas", {
-            templateUrl: "app-content/views/christmas_2016.view.html",
-            controller: "ChristmasController",
+        .state("/weddings", {
+            templateUrl: "app-content/views/weddings.view.html",
+            controller: "WeddingsController",
             controllerAs: "vm",
-            url: "/christmas"
+            url: "/weddings"
         })
 }
 
