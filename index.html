@@ -6,6 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Start Google Analytics -->
+  <script async src="//www.googletagmanager.com/gtag/js?id=UA-63022802-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-63022802-2');
+  </script>
+  <!-- End Google Analytics -->
+
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -41,7 +51,7 @@
 <script type="text/javascript" src="app-content/js/home.controller.js"></script>
 <script type="text/javascript" src="app-content/js/about.controller.js"></script>
 <script type="text/javascript" src="app-content/js/contact.controller.js"></script>
-<script type="text/javascript" src="app-content/js/weddings.controller.js"></script>
+<!-- <script type="text/javascript" src="app-content/js/weddings.controller.js"></script> -->
 
 
 <div style="font-size: 36px;min-height: 100%;margin-bottom: -25px;position: relative;padding-top: 0.25em;" class="container">
@@ -58,9 +68,9 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li ng-class="{ 'active': activeTab === '/home' }"><a href="#/home">Home</a></li>
-          <li ng-class="{ 'active': activeTab === '/about' || activeTab == '/rachel' }"><a href="#/about">About</a></li>
+          <li ng-class="{ 'active': activeTab === '/about' || activeTab == '/lisa' || activeTab == '/beth' }"><a href="#/about">About</a></li>
           <li ng-class="{ 'active': activeTab === '/contact' }"><a href="#/contact">Contact</a></li>
-          <li ng-class="{ 'active': activeTab === '/weddings' }"><a href="#/weddings">Weddings</a></li>
+          <!-- <li ng-class="{ 'active': activeTab === '/weddings' }"><a href="#/weddings">Weddings</a></li> -->
         </ul>
       </div>
     </div>
@@ -79,9 +89,9 @@
   <span style="color: #a9a9a9;padding-bottom:2em;">
     <a href="https://www.facebook.com/mthoreblex">Mt. Horeb Presbyterian Church</a>
     <br/>
-    Copyright &copy; 2020 All rights reserved
+    Copyright &copy; 2021 All rights reserved
     <br/>
-    <a style="color:#a2a2a2 !important;" href="https://en.wikipedia.org/wiki/Black_Lives_Matter">Black Lives Matter</a>
+    <a style="color:#a2a2a2 !important;" href="https://www.pcusa.org/racial-justice-resources">Black Lives Matter</a>
   </span>
 </div>
 </body>

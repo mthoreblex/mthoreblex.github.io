@@ -22,16 +22,24 @@ function config($stateProvider, $urlRouterProvider) {
             url: "/about",
             children: [
                 {
-                    templateUrl: "app-content/views/rachel.view.html",
-                    url: "/about/rachel",
-                    name: "rachel"
+                    templateUrl: "app-content/views/lisa.view.html",
+                    url: "/about/lisa",
+                    name: "lisa"
+                },
+                {
+                    templateUrl: "app-content/views/beth.view.html",
+                    url: "/about/beth",
+                    name: "beth"
                 }
             ]
         })
-        .state("rachel", {
-            templateUrl: "app-content/views/rachel.view.html",
-            url: "/about/rachel"
-
+        .state("lisa", {
+            templateUrl: "app-content/views/lisa.view.html",
+            url: "/about/lisa"
+        })
+        .state("beth", {
+            templateUrl: "app-content/views/beth.view.html",
+            url: "/about/beth"
         })
         .state("/contact", {
             templateUrl: "app-content/views/contact.view.html",
